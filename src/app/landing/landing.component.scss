@@ -1,0 +1,51 @@
+.rod {
+    background-color: #f00;
+    width: 20px;
+    height: 120vh;
+    transform: rotateX(5deg);
+}
+.rail {
+    background-color: #f00;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.container {
+    position: fixed;
+    width: 100svw;
+    height: 100svh;
+    z-index: 4;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: transparent;
+    width: 92vw;
+    border-radius: 20px;
+    box-shadow: 0 0 0 1000px #000;
+    z-index: 2;
+    transition: ease-in-out;
+}
+.spacer {
+    position: absolute;
+    height: 300svh;
+    width: 100svw;
+    top: 250vh;
+    left: 0;
+    z-index:11;
+    background-color:#2d30c6;
+}
+.everything {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100svh;
+    width: 100svw;
+    background-color: transparent;
+    z-index: 1;
+}
